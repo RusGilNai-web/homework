@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Урок 4</title>
+  <style>
+    .header {
+      height: 60px;
+      background-color: darkgoldenrod;
+    }
+
+    .header a{
+      color: #000;
+    }
+
+    .quote_area {
+      background-color: #ac7e0ab7;
+    }
+
+    .footer {
+      color: #fff;
+      background-color: blueviolet;
+      height: 300px;
+    }
+
+    .footer a{
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <a href="#first_section">Первая секция</a>
+      <a href="#second_section">Вторая секция</a>
+    </nav>
+  </header>
+  <main>
+    <section id="first_section">
+      <h1>Заголовок</h1>
+      <h2>Та самая певая секция</h2>
+      <img src="data:image/jpeg;base64,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" alt="photo">
+      <p>
+        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Переписали, единственное
+        свою. Запятой, рыбными? Текстов меня послушавшись океана себя языкового возвращайся повстречался над дал страна
+        своего? Букв, путь по всей города диких дал коварных о если журчит составитель предупредила щеке вершину
+        всемогущая буквоград то но до ведущими реторический единственное имени силуэт снова которой безорфографичный
+        жизни. Семантика, рыбного речью знаках, встретил коварный прямо вскоре послушавшись переписывается, предупреждал
+        журчит букв алфавит о залетают большой большого. Снова которой ipsum даль большой дороге всемогущая
+        реторический, свою за вопрос, меня, обеспечивает проектах? Одна, проектах речью диких но своего страну по всей
+        переулка продолжил языкового заманивший. Которое, свой страну пустился он одна использовало грустный проектах
+        ручеек. Проектах то щеке алфавит подпоясал коварный гор, своего по всей переписали несколько?
+      </p>
+      <ul>
+        <li>Элемент списка</li>
+        <li>Элемент списка</li>
+        <li>Элемент списка</li>
+        <li>Элемент списка</li>
+        <li>Элемент списка</li>
+        <li>Элемент списка</li>
+      </ul>
+    </section>
+    <section id="second_section">
+      <h2>Та самая вторая секция</h2>
+      <p>
+        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Переулка возвращайся
+        первую имеет предупредила рукописи которой, знаках сбить парадигматическая безопасную вскоре вопроса на берегу
+        маленький обеспечивает. Рот назад рукопись путь там залетают буквенных послушавшись диких точках заманивший
+        имеет, щеке последний родного маленькая ты семь дорогу, не жаренные напоивший, однажды заглавных рыбными
+        большого предупреждал великий! От всех большой власти, города заманивший рукопись ему коварных предупреждал
+        языкового рот свою не прямо пунктуация, его встретил маленькая, дал по всей ее эта заглавных первую строчка
+        запятых необходимыми! Парадигматическая lorem, заголовок составитель буквенных которой напоивший путь за бросил,
+        букв даже однажды власти океана там ведущими точках ему ты журчит. Ручеек, текстами первую свое большого своих
+        домах? Грустный напоивший языкового языком lorem коварный переписали наш дал эта, сбить, над по всей ты? Текста
+        рыбного строчка запятой продолжил о. До это рот если снова. Переписывается, агентство рукописи щеке ведущими
+        приставка диких власти заманивший несколько знаках текстами всеми вопроса встретил путь.
+      </p>
+      <div class="quote_area">
+        <blockquote>
+          Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Заглавных
+          деревни большой, сбить обеспечивает своего повстречался текста сих подзаголовок назад. Диких сих обеспечивает,
+          до последний заглавных раз она назад. Напоивший толку послушавшись грустный, которое не свой заголовок ты
+          текст, одна там правилами грамматики буквоград образ, рукописи текста сих своих рыбного. Свое прямо дороге ты
+          себя, букв знаках наш строчка деревни свой своего переулка предупредила проектах даль правилами заголовок
+          путь.
+        </blockquote>
+        -Майкл Джексон
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <h4>Ссылки</h4>
+    <ul>
+      <li>
+        <a href="#">ссылка</a>
+      </li>
+      <li>
+        <a href="#">ссылка</a>
+      </li>
+      <li>
+        <a href="#">ссылка</a>
+      </li>
+      <li>
+        <a href="#">ссылка</a>
+      </li>
+      <li>
+        <a href="#">ссылка</a>
+      </li>
+      <li>
+        <a href="#">ссылка</a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
