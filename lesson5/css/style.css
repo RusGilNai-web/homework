@@ -1,0 +1,42 @@
+.open-sans_text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.strikethrough_text {
+  text-decoration: line-through;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.large_text {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.purple_text {
+  color: blueviolet;
+  text-decoration: wavy overline blueviolet;
+  word-spacing: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.last_text {
+  text-decoration: solid underline 4px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.line {
+  background-color: dimgray;
+  height: 4px;
+  width: 100%;
+  margin: 20px 0 20px 0;
+  opacity: 0.6;
+}
