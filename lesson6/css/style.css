@@ -1,0 +1,23 @@
+.parent_box {
+  height: 600px;
+  background-color: #b57fe886;
+  border-radius: 30px 0 0 30px;
+  border: 1px solid #000;
+  overflow: auto;
+}
+
+.element {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20%;
+  height: 35%;
+  background-color:#d7ac75d6;
+  border: 1px solid #000;
+  border-radius: 30px;
+  box-shadow: inset -10px 15px 5px #0000001c;
+  margin: 10px 10px 10px 5px;
+}
+
+.element_contnet {
+  padding: 30px;
+}
