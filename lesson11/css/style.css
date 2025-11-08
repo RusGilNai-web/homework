@@ -46,9 +46,9 @@ body {
 
 /* ================== Выполнение дз ниже =================== */
 .box__scale {
-    transition: 2s ease-in;
+    transition: all 2s;
 }
 
-.box:hover span {
+.box span {
     transition: all .3s 2.1s;
 }
