@@ -5,11 +5,11 @@ body {
 }
 
 .white-rectangle {
-  width: calc(50% - 50px);
   height: 100px;
   background-color: #fff;
   position: fixed;
   left: 50%;
+  right: 50px;
   bottom: 100px;
   border-radius: 25px;
 }
