@@ -13,6 +13,11 @@
 	--inputy: #ac907a;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 .body {
   font-family: "Montserrat", "Arial", sans-serif;
   color: var(--nabornyy);
@@ -1444,6 +1449,10 @@
 }
 
 @media (max-width: 800px) {
+  .html {
+	scroll-padding-top: 50px;
+  }
+	
   .hero__content {
     display: flex;
     flex-direction: column;
